@@ -1,0 +1,13 @@
+.black {
+  background: black;
+  color: white;
+  height: 200px;
+}
+.green {
+  background: green;
+  color: orange;
+}
+* {
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: monospace;
+  font-size: xxx-large;
+  font-weight: 100;
+  color: white;
+}
+
+pre {
+  color: white;
+  font-size: x-large;
+  font-weight: 100;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  background-image: url("code.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 100%;
+  background-color: aqua;
+}
+h3 {
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  font-size: large;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid white;
+}
+h2 {
+  padding-top: 35px;
+}
+.container2 {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.container3 {
+  display: grid;
+  height: 70vh;
+  grid-gap: 15px;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  grid-template-columns: auto auto auto;
+}
+.photoContainer {
+  height: 60vh;
+  width: 30vh;
+  border: 3px solid white;
+  margin-top: 30px;
+  color: black;
+  background-color: white;
+  text-align: center;
+}
+.photoText {
+  margin: 10px 0px 10px 0px;
+}
+.item1 {
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 30vh;
+}
+.container4 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  height: 40vh;
+}
+.container5 {
+  height: 40vh;
+}
+.box1 {
+  display: inline-block;
+  background-color: dodgerblue;
+  height: 40vh;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+.box2 {
+  display: inline-block;
+  background-color: cornflowerblue;
+  height: 40vh;
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+
+  color: white;
+  padding-top: 30px;
+
+  text-align: center;
+  height: 8vh;
+
+  background-color: midnightblue;
+}
+.mb10 {
+  margin-bottom: 10px;
+}
+.mb25 {
+  margin-bottom: 25px;
+}
+.width50 {
+  width: 50%;
+}

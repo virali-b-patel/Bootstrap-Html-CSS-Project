@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>position</title>
+    <style>
+      /* * {
+        margin: 0;
+        padding: 0;
+      } */
+      li {
+        /* display: inline; */
+        list-style: square outside url("dot.jpg");
+      }
+      header {
+        background-color: yellowgreen;
+        color: black;
+        height: 10vh;
+      }
+      .container {
+        background-color: palegreen;
+        color: black;
+        height: 70vh;
+        width: 45vw;
+        margin: auto;
+        border: 2px solid black;
+        padding: 10px;
+      }
+      p {
+        text-align: center;
+        border: 2px solid black;
+      }
+      .box {
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        /* position: relative; */
+        /* position: absolute; */
+        position: fixed;
+      }
+      .box2 {
+        height: 200px;
+        width: 200px;
+        background-color: green;
+        /* position: relative; */
+        /* position: absolute; */
+        position: fixed;
+        left: 622px;
+      }
+      div {
+        background-color: pink;
+        color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>vijay</li>
+          <li>virali</li>
+          <li>Their baby</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sed a
+        iste similique quae fugit qui commodi? Earum blanditiis aspernatur
+        voluptates. Corporis eligendi quod eum. Sit, placeat rerum. Ex magni
+        iste ullam corporis aspernatur nemo fugit itaque voluptatem voluptatum
+        quos.
+      </p>
+      <div class="box">1.box</div>
+      <div class="box2">2.box</div>
+    </div>
+    <div>
+      <ul>
+        <li>virali</li>
+        <li>vijay</li>
+        <li>their baby</li>
+      </ul>
+    </div>
+  </body>
+</html>
